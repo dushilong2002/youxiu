@@ -1,0 +1,105 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url(https://tenfei01.cfp.cn/creative/vcg/veer/800/new/VCG41N511192150.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+
+
+.game-pane {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ccc;
+
+    box-shadow: 2px 2px 2px #ccc;
+    margin-bottom: 30px;
+}
+
+.cell {
+    background-color: #ccc;
+    width: 1.5em;
+    height: 1.5em;
+
+    border-style: outset;
+
+    text-align: center;
+
+    user-select: none;
+}
+
+.clear {
+    border-style: solid;
+    border-color: #eee;
+    background-color: #eee;
+}
+
+.landmine {
+    background-image: url(http://bpic.588ku.com/element_origin_min_pic/18/06/09/4296d09ef7b3372d8ca3cf06cc834d14.jpg );
+    background-position: center;
+    background-size: 100%;
+}
+
+.exploded {
+    background-image: url(http://bpic.588ku.com/element_origin_min_pic/18/06/09/4296d09ef7b3372d8ca3cf06cc834d14.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.cell.landmine.success {
+    background-color: green;
+}
+
+
+.level{
+    text-align: center;
+    margin: 10px;
+    margin-top: 100px
+    
+}
+
+.title{
+ 
+    font-size: 30px;
+    font-family: "楷体";
+    margin-bottom: 20px; 
+}
+
+
+.fontcolor1{
+    color:tomato;
+    font-weight:bold;
+}
+.fontcolor2{
+    color:blue;
+    font-weight:bold;
+}.fontcolor3{
+    color:crimson;
+    font-weight:bold;
+}.fontcolor4{
+    color:fuchsia;
+    font-weight:bold;
+}.fontcolor5{
+    color:gold;
+    font-weight:bold;
+}.fontcolor6{
+    color:lemonchiffon;
+    font-weight:bold;
+}.fontcolor7{
+    color:lightslategray;
+    font-weight:bold;
+}.fontcolor8{
+    color:palegreen;
+    font-weight:bold;
+}
+.fontcolor0{
+    color:rgb(152, 231, 251);
+    font-weight:bold;
+}
+
+
